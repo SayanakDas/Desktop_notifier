@@ -5,6 +5,7 @@ def notifyMe(title,message):
     notification.notify(
         title=title,
         message=message,
+        app_icon="C:\\Users\\dsaya\\Downloads\\sail_boat_icon_183344.ico",
         timeout=10,
     )
 
